@@ -66,9 +66,10 @@ function MobileNavigation() {
         {/* <MobileNavLink href="#testimonials">Testimonials</MobileNavLink> */}
         <MobileNavLink href="#pricing">Pricing</MobileNavLink>
         <MobileNavLink href="#faq">FAQs</MobileNavLink>
-        <MobileNavLink href="/contact">Contact</MobileNavLink>
+        <MobileNavLink href="#contact">Contact</MobileNavLink>
         <hr className="m-2 border-slate-300/40" />
         <MobileNavLink href="/login">Sign in</MobileNavLink>
+        <MobileNavLink href="/register">Sign up</MobileNavLink>
       </PopoverPanel>
     </Popover>
   )
@@ -88,14 +89,14 @@ export default function Header() {
               {/* <NavLink href="#testimonials">Testimonials</NavLink> */}
               <NavLink href="#pricing">Pricing</NavLink>
               <NavLink href="#faq">FAQs</NavLink>
-              <NavLink href="/contact">Contact</NavLink>
+              <NavLink href="#contact">Contact</NavLink>
             </div>
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
             <div className="hidden md:block">
-              <NavLink href="#">Sign in</NavLink>
+              <NavLink href="/login">Sign in</NavLink>
             </div>
-            <Button href="#" color="indigo">
+            <Button href="#pricing" color="indigo">
               <span>
                 Get started <span className="hidden lg:inline">today</span>
               </span>

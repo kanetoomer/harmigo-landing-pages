@@ -24,10 +24,11 @@ export default function Hero() {
         HoneyFlow is the all-in-one restoration communication platform that integrates with Dash and Albi, automates updates, and keeps your team connected with homeowners every step of the way.
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
-        <Button href="/register">Get Started</Button>
+        <Button color="indigo" className="px-8 py-3" href="#pricing">Get Started</Button>
         <Button
-          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          href="/contact"
           variant="outline"
+          className="px-8 py-3"
         >
           Request Demo
         </Button>

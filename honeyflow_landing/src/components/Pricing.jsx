@@ -87,15 +87,6 @@ function Plan({ name, price, description, href, features, featured = false, bill
           </li>
         ))}
       </ul>
-      <Button
-        href={href}
-        variant={featured ? 'solid' : 'outline'}
-        color="white"
-        className="mt-8"
-        aria-label={`Get started with the ${name} plan for ${price}`}
-      >
-        Get started
-      </Button>
     </section>
   )
 }
@@ -104,7 +95,6 @@ const tiers = [
   {
     name: 'Starter',
     id: 'tier-starter',
-    href: '#',
     price: { monthly: '$149', annually: '$1,639', note: 'All plans include a 14-day free trial.' },
     description: 'Ideal for owner-operators or small teams just getting started. ',
     features: [
@@ -119,7 +109,6 @@ const tiers = [
   {
     name: 'Team',
     id: 'tier-team',
-    href: '#',
     price: { monthly: '$399', annually: '$4,389', note: 'All plans include a 14-day free trial.' },
     description: 'Built for growing teams that need to stay connected and efficient.',
     features: [
@@ -134,7 +123,6 @@ const tiers = [
   {
     name: 'Growth',
     id: 'tier-growth',
-    href: '#',
     price: { monthly: '$799', annually: '$8,789', note: 'All plans include a 14-day free trial.' },
     description: 'Designed for established teams scaling operations and communication.',
     features: [
@@ -217,6 +205,12 @@ export default function Pricing() {
               billingPeriod={billingPeriod}
             />
           ))}
+        </div>
+        
+        {/* Get Started Button */}
+        <div className="mt-16 flex flex-col items-center">
+          <Button className="px-32 py-4 outline" href="/register">Sign Up for HoneyFlow</Button>
+          <div className="mt-4 text-sm text-slate-400">You will choose your plan during registration.</div>
         </div>
       </Container>
     </section>

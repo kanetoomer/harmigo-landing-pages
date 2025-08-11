@@ -6,6 +6,7 @@ import SecondaryFeatures from "../components/SecondaryFeatures";
 import CallToAction from "../components/CallToAction";
 import Faqs from "../components/Faqs";
 import Footer from "../components/Footer";
+import Contact from "../components/Contact";
 
 export default function Landing() {
     return (
@@ -15,9 +16,10 @@ export default function Landing() {
                 <Hero />
                 <PrimaryFeatures />
                 <SecondaryFeatures />
-                <CallToAction />
                 <Pricing />
                 <Faqs />
+                <CallToAction />
+                <Contact />
             </main>
             <Footer />
         </div>
