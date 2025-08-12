@@ -64,8 +64,8 @@ function MobileProductsMenu() {
             />
           </Disclosure.Button>
           <Disclosure.Panel className="pl-4">
-            <a href="https://www.honeyflow.io" className="block w-full p-2">
-              HoneyFlow
+            <a href="#" className="block w-full p-2">
+              HoneyFlow <span className="text-xs text-gray-500">(Coming Soon)</span>
             </a>
             {/* <a href="#product2" className="block w-full p-2">
               Product 2
@@ -126,13 +126,13 @@ function ProductsMenu() {
           <MenuItem>
             {({ active }) => (
               <a
-                href="https://www.honeyflow.io"
+                href="#"
                 className={clsx(
                   "block px-4 py-2 text-sm rounded-lg",
                   active ? "bg-slate-100 text-slate-900" : "text-slate-700"
                 )}
               >
-                HoneyFlow
+                HoneyFlow <span className="text-xs text-gray-500">(Coming Soon)</span>
               </a>
             )}
           </MenuItem>

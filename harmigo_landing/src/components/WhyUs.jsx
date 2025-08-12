@@ -60,26 +60,27 @@ export default function WhyUs() {
                                 <div>
                                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Josiah Viland</h3>
                                 <p className="text-gray-600 dark:text-gray-400 mb-1">Chief Executive Officer</p>
-                                <p className="text-gray-700 dark:text-gray-300 text-sm">
+                                {/* <p className="text-gray-700 dark:text-gray-300 text-sm">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
-                                </p>
+                                </p> */}
                                 </div>
                                 <div>
                                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Kane Toomer</h3>
                                 <p className="text-gray-600 dark:text-gray-400 mb-1">Chief Technology Officer</p>
-                                <p className="text-gray-700 dark:text-gray-300 text-sm">
+                                {/* <p className="text-gray-700 dark:text-gray-300 text-sm">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
-                                </p>
+                                </p> */}
                                 </div>
                                 <div>
                                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Zak Martin</h3>
                                 <p className="text-gray-600 dark:text-gray-400 mb-1">Chief Marketing Officer</p>
-                                <p className="text-gray-700 dark:text-gray-300 text-sm">
+                                {/* <p className="text-gray-700 dark:text-gray-300 text-sm">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
-                                </p>
+                                </p> */}
                                 </div>
                             </div>
-                            </div>
+                            <p className="mt-6 text-base/7 text-gray-600 dark:text-gray-400">With over 25 years of combined experience in the restoration industry, Josiah and Zak have worked across contracting, sales, marketing, and with leading software companies serving the field. Kane brings 15 years of software development expertise, having founded several tech startups. Together, they blend deep industry knowledge with technical innovation to deliver solutions that transform how restoration businesses operate.</p>
+                        </div>
 
                     </section>
                 </div>

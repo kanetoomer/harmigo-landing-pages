@@ -54,12 +54,12 @@ export default function Hero() {
                         At Harmigo Inc., we create powerful, intuitive software solutions designed for industries that keep the world moving.
                       </p>
                       <div className="mt-10 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-x-6 gap-y-4">
-                        <Button 
+                        {/* <Button 
                           className="py-4 px-6 bg-teal-600 hover:bg-white hover:text-teal-600 hover:outline hover:outline-teal-600" 
                           href="#register"
                         >
                           Check Out HoneyFlow
-                        </Button>
+                        </Button> */}
                         <Button
                           href="#contact"
                           variant="outline"
