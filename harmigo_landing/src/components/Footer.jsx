@@ -23,10 +23,10 @@ function FooterProductsMenu() {
           </Disclosure.Button>
           <Disclosure.Panel className="mt-1 pl-4">
             <a
-              href="https://www.honeyflow.io"
+              href="#"
               className="block rounded-lg px-2 py-1 text-sm text-slate-700 hover:bg-slate-100 hover:text-slate-900"
             >
-              HoneyFlow
+              HoneyFlow <span className="text-xs text-gray-500">(Coming Soon)</span>
             </a>
             {/* <a
               href="#product2"
