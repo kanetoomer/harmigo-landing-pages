@@ -26,7 +26,7 @@ export default function Hero() {
       <div className="mt-10 flex justify-center gap-x-6">
         <Button color="indigo" className="px-8 py-3" href="#pricing">Get Started</Button>
         <Button
-          href="/contact"
+          href="#contact"
           variant="outline"
           className="px-8 py-3"
         >

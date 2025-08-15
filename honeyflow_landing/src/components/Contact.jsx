@@ -160,7 +160,7 @@ export default function Contact() {
           </div>
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-4xl font-semibold tracking-tight text-balance text-gray-900 sm:text-5xl">Contact Us</h2>
-            <p className="mt-2 text-lg/8 text-gray-600">Have questions, want a personalized demo of our products or just want to say hello? Our team is here to help you see how Harmigo can streamline your communication workflow.</p>
+            <p className="mt-2 text-lg/8 text-gray-600">Have questions, want a personalized demo or just want to say hello? Our team is here to help you see how HoneyFlow can streamline your communication workflow.</p>
           </div>
           <form onSubmit={handleSubmit} className="mx-auto mt-16 max-w-xl sm:mt-20">
             <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
