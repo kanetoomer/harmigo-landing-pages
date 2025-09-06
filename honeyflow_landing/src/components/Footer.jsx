@@ -14,6 +14,8 @@ export default function Footer() {
               <NavLink href="#pricing">Pricing</NavLink>
               <NavLink href="#faq">FAQs</NavLink>
               <NavLink href="/contact">Contact</NavLink>
+              <NavLink href="/privacy-policy">Privacy Policy</NavLink>
+              <NavLink href="/terms-of-service">Terms of Service</NavLink>
             </div>
           </nav>
         </div>
